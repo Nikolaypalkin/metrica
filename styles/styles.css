@@ -57,27 +57,13 @@ h1{
     margin-bottom: 50px;
 }
 .about a{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    display: inline-block;
     padding: 20px 40px;
-    gap: 10px;
-    width: 255px;
-    height: 67px;
-    left: 125px;
-    top: 1379px;
     background: #AD1818;
     border-radius: 5px;   
-    width: 175px;
-    height: 27px;
-
-    font-style: normal;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     text-decoration: none;
 }
