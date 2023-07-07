@@ -11,15 +11,28 @@
 </head>
 <body>
     <div class="container">
+        <header>
+            <img 
+                class="logo"
+                src="resources/Logo.svg" 
+                alt="Логотип Метрика"
+            >
+            <nav class="nav">
+                <a href="#about" class="nav__line">О НАС</a>
+                <a href="#project" class="nav__line">ПРОЕКТЫ</a>
+                <a href="#service" class="nav__line">УСЛУГИ</a>
+                <a href="#contacts" class="nav__line">КОНТАКТЫ</a>
+            </nav>
+        </header>
         <section>
-            <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-            <div class="img-main">
-                <p class="img-text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
+            <h1>Современные и стильные </br> интерьеры для комфортной жизни</h1>
+            <div class="img__main">
+                <p class="img__text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
                 разработкой и реализацией дизайн-проектов</p>
             </div>
         </section>
         <section >
-            <div class="about">
+            <div id="about" class="about">
                 <h2> о нас</h2>
                 <p>Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. 
                     Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
@@ -27,12 +40,12 @@
             </div>
         </section>
         <section class="section-line">
-            <h2>проекты</h2>
+            <h2 id="project">проекты</h2>
             <ul class="projects">
                 <li class="project">
                     <img 
                         class="project-img"
-                        src="resources/project1.png"    
+                        src="resources/project/project1.png"    
                         alt="Коричневый диван">
                     <h3 class="title-project" >ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                     <a class="detailed"  href="/">Подробнее →</a>
@@ -40,7 +53,7 @@
                 <li class="project">
                     <img 
                         class="project-img"
-                        src="resources/project2.png" 
+                        src="resources/project/project2.png" 
                         alt="Гостиная">
                     <h3 class="title-project" >ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                     <a class="detailed" href="/">Подробнее →</a>
@@ -48,7 +61,7 @@
                 <li class="project">
                     <img 
                         class="project-img"
-                        src="resources/project3.png" 
+                        src="resources/project/project3.png" 
                         alt="Кухня">
                     <h3 class="title-project" >ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                     <a class="detailed"  href="/">Подробнее →</a>
@@ -58,33 +71,42 @@
                 </a>
             </ul> 
         </section>
-        <section class="section-black section-line">
-            <h2>Услуги</h2>
-            <div class="services"> 
+        <div class="container__black section-line section__full">
+            <section>
+                <h2>Услуги</h2>
                 <div class="service">
-                    <img 
-                    src="resources/services1.jpg" 
-                    alt="Карандаш на чертеже">
+                    <img           
+                        src="resources/services/services1.jpg" 
+                        alt="Карандаш на чертеже"
+                    >
                     <h3>Планировочное решение — от 2500₽/м²</h3>
                 </div>
                 <div class="service">
                     <img 
-                    src="resources/services2.jpg" 
-                    alt=" Палитра">
+                        src="resources/services/services2.jpg" 
+                        alt=" Палитра"
+                    >
                     <h3>Дизайн-проект — от 3000₽/м²</h3>
-                </div>
-                <div class="service">
-                    <img 
-                    src="resources/services3.jpg" 
-                    alt="Работа с чертежом">
-                    <h3>Авторский надзор — от 30 000₽ в месяц</h3>
-                </div>
-                <div class="service">
-                    <img 
-                    src="resources/services1.jpg" 
-                    alt="Палеты с грузом">
-                    <h3>Комплектация — 5% от стоимости спецификации</h3>
-                </div>
+                    </div>
+                    <div class="service">
+                        <img 
+                            src="resources/services/services3.jpg" 
+                            alt="Работа с чертежом"
+                        >
+                        <h3>Авторский надзор — от 30 000₽ в месяц</h3>
+                    </div>
+                    <div class="service">
+                        <img 
+                            src="resources/services/services4.jpg" 
+                            alt="Палеты с грузом"
+                        >
+                        <h3>Комплектация — 5% от стоимости спецификации</h3>
+                    </div>
+            </section>
+        </div>
+        <section>
+            <div class="fullimg">
+                <p class="fullimg__text">Проект Двухкомнатной </br> квартиры в ЖК Лесной Пейзаж</p>
             </div>
         </section>
     </div>
