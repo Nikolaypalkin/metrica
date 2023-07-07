@@ -5,75 +5,80 @@ body {
 }
 
 .container {
-    width: 1400px;
-    margin: 0 auto;
-    background-color: #FFF;;
+    background-color: #FFF;
+    letter-spacing: -0.03em;
 }
 
 section {
+    width: 1400px;
+    margin: 0 auto;
     padding: 150px 125px 0 125px;
 }
 
-section:nth-child(1) {
-    padding-top: 128px;
+.section__full {
+    width: 100%;
+}
+
+.container__black {
+    background: #000;
+}
+
+section:nth-child(2) {
+    padding-top: 70px;
 }
 
 .section-line {
     padding-bottom: 150px;
 }
 
-h1 h2 {
-    letter-spacing: -0.03em;
+h1,
+h2,
+h3 {
+    color: #121212;
 }
 
 h1{
     font-size: 60px;
     line-height: 60px;
-    color: #121212;
     text-align: left;  
 }
 
-.img-main {
+.img__main {
     margin-top: 30px;
     position: relative;
     background: url(../resources/Rectangle1.png);
     height: 500px;
 }
 
-.img-text {
+.img__text {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    color: #FFF;
     position: absolute;
     left: 40px;
     bottom: 40px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
     width: 430px;
 }
 
 h2 {
+    margin-bottom: 30px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
-    color: #121212;
 }
 
 h3 {
-    color: #121212;
     font-size: 30px;
     letter-spacing: -0.9px;
 }
 
 .about p{
     width: 1048px;
-    font-style: normal;
     font-weight: 400;
     font-size: 45px;
     line-height: 61px;
-    letter-spacing: -0.03em;
     color: #121212;
     margin-bottom: 50px;
 }
@@ -85,7 +90,6 @@ h3 {
     border-radius: 5px;   
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -133,15 +137,8 @@ h3 {
     color: #FFF;
 }
 
-.section-black {
-    background-color: #000;
-}
-
-.section-black h2 {
-    color: #FFF;
-}
-
-.section-black h3 {
+.container__black h2,
+.container__black h3 {
     color: #FFF;
 }
 
@@ -151,4 +148,45 @@ h3 {
 
 .service {
     margin-bottom: 60px;
+}
+
+header {
+    width: 1400px;
+    margin: auto;
+    padding: 33px 125px 0 125px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav__line {
+    color: #121212;
+    margin-left: 60px;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.nav__line:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5) ;
+}
+
+.fullimg {
+    background-image: url(/resources/Rectangle10.jpg);
+    height: 717px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.fullimg__text {
+    left: 125px;
+    bottom: 60px;
+    position: absolute;
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: -0.9px;
 }
