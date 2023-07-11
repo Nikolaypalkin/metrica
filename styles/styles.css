@@ -55,7 +55,7 @@ h1 {
 
 .start-image {
     position: relative;
-    background: url(/resources/interior.png);
+    background: url(../resources/interior.png);
     height: 500px;
 }
 
@@ -177,7 +177,7 @@ h3 {
 }
 
 .room__image {
-    background: url(/resources/Room.png);
+    background: url(../resources/Room.png);
     height: 717px;
     position: relative;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ h3 {
 
 .icon__contacts:before {
     content: '';
-    background-image: url(/resources/icon_phone.png);
+    background-image: url(../resources/icon_phone.png);
     display: block;
     width: 24px;
     height: 24px;
